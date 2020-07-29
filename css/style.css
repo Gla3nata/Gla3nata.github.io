@@ -1,0 +1,49 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    font-family: Arial;
+    font-weight: 400;
+}
+
+.padding-site {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.hemepage-heder {
+    background-image: url(../img/bg_photo_11949.png);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 186px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo:hover .logo-icon {
+    fill: brown;
+}
+
+.logo:hover .logo-txt {
+    color: brown;
+}
+
+.logo:active .logo-icon {
+    fill: gold;
+}
+
+.logo:active .logo-txt {
+    color: gold;
+}
+
+.logo-icon {
+    fill: #fff;
+}
+
+.logo-txt {
+    font-family: raleway, arial, sans-serif;
+    font-size: 33px;
+}
