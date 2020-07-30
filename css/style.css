@@ -1,8 +1,7 @@
 body {
     width: 1280px;
     margin: 0 auto;
-    font-family: Arial;
-    font-weight: 400;
+     font-family: Montserrat;
 }
 
 .padding-site {
@@ -14,6 +13,16 @@ body {
     background-image: url(../img/bg_photo_11949.png);
 }
 
+.hemepage-header-wrp {
+    display: flex;
+    margin: 1px 3px 0 0;
+     padding: 2px 1px 3px 0;
+    border: 1px solid white;
+    justify-content: space-around;
+   }
+
+
+
 .logo {
     display: flex;
     justify-content: space-between;
@@ -21,6 +30,10 @@ body {
     width: 186px;
     text-decoration: none;
     color: #fff;
+}
+
+.logo-svg {
+  fill: currentColor;
 }
 
 .logo:hover .logo-icon {
@@ -46,4 +59,55 @@ body {
 .logo-txt {
     font-family: raleway, arial, sans-serif;
     font-size: 33px;
+}
+
+.menu-navigacion {
+    width: 780px;
+    
+}
+
+.menu-header-list {
+    display: flex;
+    justify-content: space-around;
+     list-style-type:none;
+    text-decoration: none; 
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.menu-link {
+     text-decoration: none; 
+    margin: 0px 0px 0 0;
+     padding: 0px 0px 3px 0;
+    border: 1px solid white;
+font-size: 14px;
+line-height: 1.2;
+font-weight: 300;
+color: #ffffff;
+}
+
+
+
+
+
+input[type="search"] {
+  width: 24px;
+  height: 24px;
+  outline: none;
+  background-image: url('../img/icon_search_12272.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+    background-color: #323636;
+}
+
+input[type="search"]:focus {
+  width: 300px;
+  transition: width 1s ease-out;
+  background-position: right;
+}
+
+.basket {
+    width: 24px;
+    height: 24px;
 }
