@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserat;
+    src:url(../fonts/)
+}
+
 body {
     width: 1280px;
     margin: 0 auto;
@@ -230,8 +235,8 @@ input[type="search"]:focus {
 
 .carusel-pagination-item:hover {
     background-color: transparent;
-    width: 15px;
-    height: 15px;
+    width: 11px;
+    height: 11px;
     border: 2px solid #d3c1ad;
     transform: scale(1.2);
 }
