@@ -44,7 +44,7 @@
 }
 
 body {
-    width: 1280px;
+    width: 1920px;
     margin: 0 auto;
     color: #ffffff;
 }
@@ -224,10 +224,11 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-end;
-    min-height: 550px;
+    min-height: 890px;
 }
 
 .carusel-block {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
