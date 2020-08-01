@@ -49,17 +49,15 @@ body {
     color: #ffffff;
 }
 
-.padding-site {
-    padding: 50px;
-    box-sizing: border-box;
-}
-
 .hemepage-heder {
     min-height: 1024px;
-    background-image: url(../img/bg_photo_11949.png);
+    border-color: #363636;
+    background-image: url(../img/bg_photo_11949.jpg);
     box-sizing: border-box;
     background-size: contain;
     background-repeat: no-repeat;
+    padding: 38px 0 0 0;
+    margin: 0px 0 2px 0;
 }
 
 .hemepage-header-wrp {
@@ -381,6 +379,7 @@ body {
     display: flex;
     justify-content: center;
     margin-bottom: 77px;
+    margin-top: 80px;
 }
 
 .features {
@@ -452,15 +451,91 @@ font-size: 30px;
 line-height: 1.2;
 font-weight: 600;
 color: #555555;
-   
+padding: 80px 0 30px 0;  
 }
 
 .header-slider-txt {
-    font-family: Montserrat;
+font-family: 'montserrat-light', 'arial', sans-serif;
 font-size: 16px;
 line-height: 28px;
-font-weight: 300;
+text-align: center;
 color: #8c8c8c;
     width: 760px;
     margin: 0 auto;
+     word-break: break-all;
+    padding-bottom: 45px;
+}
+
+.multi_photo {
+  width: 100%;
+  min-height: 400px;
+  background-image: url('../img/browser_center_10768.jpg'),
+                    url('../img/browser_left_10769.jpg'),
+                    url('../img/browser_right_10770.jpg');
+
+  background-size: 40%, 30%, 30%;
+  background-repeat: no-repeat;
+  background-position: bottom center, bottom left, bottom right;
+}
+
+.ad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 150px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+  background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+}
+
+.ad-wrapper {
+  width: 531px;
+  margin: 0 470px 0 0;
+}
+
+.ad-title {
+  width: 100%;
+  margin: 0;
+  font-size: 28px;
+  font-family: "Raleway";
+  color: #fff;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.ad-title span {
+  color: rgb(199, 178, 153);
+}
+
+.ad-txt {
+  width: 100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(97, 88, 85);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.ad-button {
+  width: 170px;
+  min-height: 50px;
+  border: none;
+  border-bottom: 2px solid #736357;
+  border-radius: 3px;
+  background-color: #998675;
+  box-shadow: inset 0px 3px 0px 0px rgba(115, 99, 87, 0.004);
+}
+
+.ad-button-txt {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.643;
+  text-align: center;
 }
