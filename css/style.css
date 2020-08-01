@@ -179,7 +179,7 @@ body {
  border-radius: 5px;
   position: absolute;
   left: -2px;
-  color: #fff;
+  color: #a48d72;
   font-size: 16px;
     font-family: 'raleway-regular', 'arial', sans-serif;
   text-transform: capitalize;
@@ -192,6 +192,7 @@ body {
   min-height: 20px;
   transition: width 1s ease;
   border: 2px solid #fff;
+   background-color: #fff;
 }
 
 .search-icon-form__input:focus ~ .search-icon-form__label>.search-icon-form__svg {
