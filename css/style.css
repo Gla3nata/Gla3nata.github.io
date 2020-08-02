@@ -441,105 +441,110 @@ body {
 }
 
 .slider {
-min-height: 700px;
-background-color: #fbfaf8;
-    
+    min-height: 700px;
+    background-color: #fbfaf8;
+
 }
+
 .header-slider {
-width: 100%;
-display: block;
-text-align: center;
-font-family: 'raleway-semibold', 'arial', sans-serif;
-font-size: 30px;
-line-height: 1.2;
-font-weight: 600;
-color: #555555;
-padding: 80px 0 30px 0;  
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'raleway-semibold', 'arial', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    padding: 80px 0 30px 0;
 }
 
 .header-slider-txt {
-font-family: 'montserrat-light', 'arial', sans-serif;
-font-size: 16px;
-line-height: 28px;
-text-align: center;
-color: #8c8c8c;
+    font-family: 'montserrat-light', 'arial', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #8c8c8c;
     width: 760px;
     margin: 0 auto;
-     word-break: break-all;
+    word-break: break-all;
     padding-bottom: 45px;
 }
 
 .multi_photo {
-  width: 70%;
+    width: 70%;
     margin: 0 auto;
-  min-height: 482px;
-  background-image: url('../img/browser_center_10768.jpg'),
-                    url('../img/browser_left_10769.jpg'),
-                    url('../img/browser_right_10770.jpg');
+    min-height: 482px;
+    background-image: url('../img/browser_center_10768.jpg'),
+        url('../img/browser_left_10769.jpg'),
+        url('../img/browser_right_10770.jpg');
 
-  background-size: 40%, 35%, 35%;
-  background-repeat: no-repeat;
-  background-position: bottom center, bottom left, bottom right;
+    background-size: 58%, 58%, 58%;
+    background-repeat: no-repeat;
+    background-position: bottom center, bottom left, bottom right;
 }
 
 .ad {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  min-height: 150px;
-  padding: 20px;
-  box-sizing: border-box;
-  background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
-  background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
-  background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
 }
 
 .ad-wrapper {
-  width: 531px;
-  margin: 0 470px 0 0;
+    width: 540px;
+    margin: 0 465px 0 0;
 }
 
 .ad-title {
-  width: 100%;
-  margin: 0;
-  font-size: 28px;
-  font-family: "Raleway";
-  color: #fff;
-  line-height: 1.2;
-  text-align: left;
+    width: 100%;
+    margin: 0;
+    font-family: 'raleway-regular', 'arial', sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #fff;
 }
 
-.ad-title span {
-  color: rgb(199, 178, 153);
+.waxom {
+    font-family: 'raleway-regular', 'arial', sans-serif;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #c7b299;
 }
 
 .ad-txt {
-  width: 100%;
-  margin: 0;
-  font-size: 18px;
-  font-family: "Montserrat";
-  color: rgb(97, 88, 85);
-  line-height: 1.2;
-  text-align: left;
+    font-family: 'montserrat-light', 'arial', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
 }
 
+/*
 .ad-button {
-  width: 170px;
-  min-height: 50px;
-  border: none;
-  border-bottom: 2px solid #736357;
-  border-radius: 3px;
-  background-color: #998675;
-  box-shadow: inset 0px 3px 0px 0px rgba(115, 99, 87, 0.004);
+    width: 170px;
+min-height: 50px;
+background-color: #998675;
+border-radius: 3px;
+border: none;
+border-bottom: 2px solid #736357;
+box-shadow: inset 0px 3px 0px 0px rgba(115, 99, 87, 0.004);
 }
 
 .ad-button-txt {
-  font-size: 14px;
-  font-family: "Raleway";
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.643;
-  text-align: center;
+font-family: 'raleway-extrabold', 'arial', sans-serif;
+font-size: 14px;
+line-height: 23px;
+font-weight: 800;
+text-transform: uppercase;
+color: #ffffff;
+    word-break: break-all;
 }
+*/
+
