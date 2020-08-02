@@ -74,6 +74,7 @@ body {
     width: 186px;
     text-decoration: none;
     color: #fff;
+    margin: 0px 130px 0px 0px;
 }
 
 .logo-svg {
@@ -119,7 +120,7 @@ body {
     list-style-type: none;
     text-decoration: none;
     margin: 0;
-    padding: 10px 0 0 0;
+    padding: 19px 17px 0 0;
 }
 
 .menu-list {
@@ -149,6 +150,7 @@ body {
     background-color: transparent;
     fill: #fff;
     border: transparent;
+    margin-top: 14px;
 }
 
 .basket:hover .button-svg {
@@ -163,7 +165,7 @@ body {
 .search-icon-form {
     width: 24px;
     height: 24px;
-    margin: 0 0 0 30px;
+    margin: 14px 0 0 30px;
     position: relative;
 }
 
@@ -278,6 +280,7 @@ body {
     min-height: 270px;
     justify-content: center;
     flex-direction: column;
+    margin-top: -90px;
 }
 
 .carusel-title {
