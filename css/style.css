@@ -151,6 +151,7 @@ body {
     fill: #fff;
     border: transparent;
     margin-top: 14px;
+    outline: none;
 }
 
 .basket:hover .button-svg {
@@ -316,6 +317,7 @@ body {
 }
 
 .link-btn {
+    display: block;
     margin: 0 auto;
     border-radius: 5px;
     width: 170px;
@@ -451,10 +453,11 @@ body {
     line-height: 1.2;
     font-weight: 600;
     color: #555555;
+    width: 100%;
 }
 
 .header-slider {
-    width: 100%;
+
     display: block;
     text-align: center;
     padding: 80px 0 0 0;
@@ -507,7 +510,7 @@ body {
 
 .ad-wrapper {
     width: 540px;
-    margin: 0 465px 0 0;
+    margin: 0 auto;
 }
 
 .ad-title {
@@ -537,14 +540,17 @@ body {
 }
 
 .projects {
-    min-height: 1170px;
     text-align: center;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
 }
 
 .projects-btn {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .pro-btn {
@@ -572,36 +578,47 @@ body {
     color: #ffffff;
 }
 
+.cats-link-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+/*    margin-top: 40px;*/
+    
+}
+
 .carts {
     width: 370px;
-/*    border: 1px solid black;*/
+/*        border: 1px solid black;*/
     position: relative;
+    margin: 0;
 }
 
 .carts-img {
     display: block;
     width: 100%;
-    /*    margin: 0 20px 0 0;*/
 }
 
 .carts-text {
     width: 100%;
-/*    border: 1px solid red;*/
+    /*    border: 1px solid red;*/
     position: relative;
     background-color: #fbfaf8;
 }
 
 .carts-text:before {
-  content: "";
-  border: 10px solid transparent;	
-  border-bottom: 10px solid #fbfaf8;
-  position: absolute;
-  top: -20px;
-  left: 20px;
+    content: "";
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fbfaf8;
+    position: absolute;
+    top: -20px;
+    left: 20px;
 }
 
 .carts-link {
     text-decoration: none;
+    margin-top: 40px;
+/*         border: 1px solid red;*/
 }
 
 .carts-title {
@@ -613,7 +630,7 @@ body {
     line-height: 1.2;
     font-weight: 500;
     color: #c7b299;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
 .carts-subject {
@@ -625,5 +642,60 @@ body {
     line-height: 20px;
     font-weight: 300;
     color: #d1d1d1;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
+
+
+.article-btn-link,
+.article-btn-search {
+    width: 26px;
+    height: 26px;
+    display: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: absolute;
+    top: 35%;
+}
+
+
+.article-btn-link {
+  left: 35%;
+}
+
+.article-btn-search {
+  right: 35%;
+}
+.carts:hover .article-btn-link {
+  display: block;
+}
+
+.carts:hover .article-btn-search {
+  display: block;
+}
+
+.carts:hover .article-btn-link:hover {
+  background-color: transparent;
+}
+
+.carts:hover .article-btn-search:hover {
+  background-color: transparent;
+}
+
+.carts:hover .carts-img {
+  filter: brightness(20%);
+}
+
+.carts:hover .carts-text {
+  background-color: #362f2d;
+}
+
+.carts:hover .carts-text:before {
+  border-bottom: 10px solid #362f2d;
+}
+
+.btn-load {
+        width: 100%;
+    background-color: transparent;
+    border: none;
+    margin: 40px 0 80px 0;
