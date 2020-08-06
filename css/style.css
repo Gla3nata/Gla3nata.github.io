@@ -583,13 +583,13 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1200px;
-/*    margin-top: 40px;*/
-    
+    /*    margin-top: 40px;*/
+
 }
 
 .carts {
     width: 370px;
-/*        border: 1px solid black;*/
+    /*        border: 1px solid black;*/
     position: relative;
     margin: 0;
 }
@@ -618,7 +618,7 @@ body {
 .carts-link {
     text-decoration: none;
     margin-top: 40px;
-/*         border: 1px solid red;*/
+    /*         border: 1px solid red;*/
 }
 
 .carts-title {
@@ -650,52 +650,224 @@ body {
 .article-btn-search {
     width: 26px;
     height: 26px;
-    display: none;
+     display: none;
+/*    display: block;*/
     border: none;
     outline: none;
     background-color: transparent;
     position: absolute;
     top: 35%;
+    color: white;
 }
 
 
 .article-btn-link {
-  left: 35%;
+    left: 35%;
+    fill: #fff;
 }
 
 .article-btn-search {
-  right: 35%;
+    right: 35%;
+    fill: #fff;
 }
+
+.article-btn-svg: {
+    fill: #fff;
+}
+
 .carts:hover .article-btn-link {
-  display: block;
+    display: block;
 }
 
 .carts:hover .article-btn-search {
-  display: block;
+    display: block;
 }
 
-.carts:hover .article-btn-link:hover {
-  background-color: transparent;
+.carts:hover .article-btn-svg:hover {
+    fill: #c7b299;
 }
 
-.carts:hover .article-btn-search:hover {
-  background-color: transparent;
+.carts:active .article-btn-svg:active {
+    fill: red;
 }
+
+/*
+.carts:hover .article-btn-link:active {
+    fill: red;
+}
+
+.carts:hover .article-btn-search:active {
+    fill: red;
+}
+*/
 
 .carts:hover .carts-img {
-  filter: brightness(20%);
+    filter: brightness(20%);
 }
 
 .carts:hover .carts-text {
-  background-color: #362f2d;
+    background-color: #362f2d;
 }
 
 .carts:hover .carts-text:before {
-  border-bottom: 10px solid #362f2d;
+    border-bottom: 10px solid #362f2d;
 }
 
 .btn-load {
-        width: 100%;
+    width: 100%;
     background-color: transparent;
     border: none;
     margin: 40px 0 80px 0;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 705px;
+    position: relative;
+    overflow: hidden;
+    background-color: #ccc;
+    /*  border: 1px solid red;*/
+}
+
+.video-item {
+    overflow: hidden;
+}
+
+.video-txt-wrp {
+    width: 552px;
+    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.video-txt-title {
+    font-family: 'raleway-medium', 'arial', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.video-txt-p {
+    text-align: justify;
+    font-family: 'montserrat-light', 'arial', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.video-txt-time {
+    font-family: 'montserrat-regular', 'arial', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 800;
+    color: #c7b299;
+}
+
+.video-txt-title,
+.video-txt-time {
+    display: block;
+    text-align: center;
+}
+
+.video-play-btn {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+.video-play-btn-icon {
+    margin: auto;
+    fill: #fff;
+}
+
+.video-play-btn:hover .video-play-btn-icon {
+    
+    transform: scale(1.2);
+}
+
+.video-play-btn:active .video-play-btn-icon {
+    fill: #c7b299;
+    transform: scale(1.2);
+
+}
+
+.description {
+    min-height: 616px;
+    background-image: url('../img/iphone_in_hand_10962.png');
+    background-repeat: no-repeat;
+    background-position: 30% 80px;
+    background-size: 423px 616px;
+
+}
+
+.description-img {
+    width: 423px;
+    min-height: 600px;
+    background-image: url('../img/iphone_in_hand_10962.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 20% 100px;
+    background-attachment: fixed;
+    /*    background-origin: border-box;*/
+}
+
+.description-txt {
+    padding-top: 195px;
+    margin: 0 380px 0 875px;
+}
+
+.description-heading {
+    width: 100%;
+    text-align: left;
+    font-family: 'raleway-semibold', 'arial', sans-serif;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+}
+
+.description-txt .deskriotion-txt-wrp {
+    font-family: 'montserrat-light', 'arial', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+}
+
+.deskription-txt-list {
+    margin-left: 100px;
+    padding: 0;
+}
+
+.deskription-list {
+    font-family: 'montserrat-light', 'arial', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #8c8c8c;
+    list-style-type: none;
+    position: relative;
+}
+
+.deskription-list:before {
+    content: "\203a";
+    display: block;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #c7b299;
+    color: white;
+    text-align: center;
+    line-height: 21px;
+    position: absolute;
+    top: 4px;
+    left: -30px;
+    font-size: 21px;
+}
