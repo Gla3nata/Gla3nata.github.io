@@ -877,8 +877,8 @@ body {
     background-color: #f4f5f8;
     background-image: linear-gradient(90.0deg, #211b19 0%, #4e3427 100%);
     justify-content: space-between;
-     padding: 69px 490px 60px 490px;
-   
+  padding: 0px 490px 0px 490px;
+    height: 300px;   
 }
 
 .sticers {
