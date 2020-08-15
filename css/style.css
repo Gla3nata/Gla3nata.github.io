@@ -49,6 +49,13 @@ body {
     color: #ffffff;
 }
 
+a {
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    color: #555555;
+}
+
 .hemepage-heder {
     min-height: 1024px;
     border-color: #363636;
@@ -72,7 +79,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 186px;
-    text-decoration: none;
     color: #fff;
     margin: 0px 130px 0px 0px;
 }
@@ -118,7 +124,6 @@ body {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    text-decoration: none;
     margin: 0;
     padding: 19px 17px 0 0;
 }
@@ -132,7 +137,6 @@ body {
 }
 
 .menu-link {
-    text-decoration: none;
     color: #fff;
 }
 
@@ -616,7 +620,6 @@ body {
 }
 
 .carts-link {
-    text-decoration: none;
     margin-top: 40px;
     /*         border: 1px solid red;*/
 }
@@ -996,7 +999,6 @@ body {
     line-height: 20px;
     font-weight: 300;
     color: #c7b299;
-    text-decoration: none;
     position: relative;
 }
 
@@ -1008,6 +1010,7 @@ body {
     position: absolute;
     top: 4px;
     left: 85px;
+    opacity: 0;
 }
 
 .post_carts-link:hover {
@@ -1018,8 +1021,15 @@ body {
     color: gold;
 }
 
-.post_carts-link:hover .post_carts-link:after {
+.post_carts-link:hover::after {
     border-left: 8px solid #fff;
+    opacity: 1;
+}
+
+.post_carts-link:active::after {
+    border-left: 8px solid gold;
+    ;
+    opacity: 1;
 }
 
 /*
@@ -1139,8 +1149,6 @@ footer {
     color: #555555;
 }
 
-.post_carts-link {}
-
 .footer-title {
     font-family: 'raleway-bold', 'arial', sans-serif;
     font-size: 24px;
@@ -1148,11 +1156,11 @@ footer {
     font-weight: 700;
     color: #ffffff;
     display: block;
+    margin-bottom: 30px;
 }
 
 .footer-post-link {
     margin: 0 0 20px 0;
-    text-decoration: none;
     border-bottom: 2px solid #252525;
     padding: 0 0 20px 0;
 }
@@ -1192,8 +1200,39 @@ time:hover {
     transform: scale(1.2);
     transition: .3s;
 }
+
 .links-block {
-    min-height: 111px;
-background-color: #111111;
+    min-height: 20px;
+    background-color: #111111;
+    display: flex;
+    padding: 45px 375px 50px 375px;
+    justify-content: space-between;
 }
 
+.links {
+    display: flex;
+    font-family: 'montserrat-light', 'arial', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #555555;
+     !important;
+}
+
+.links-item-text,
+.links-item-link {
+    display: block;
+    border-right: 1px solid #252525;
+    padding: 0 10px 0 0;
+    margin: 0 10px 0 0;
+    box-sizing: border-box;
+}
+
+.brand-link {
+    color: #959595;
+}
+
+.links-item-link:hover,
+.brand-link:hover {
+    color: #c7b299;
+}
