@@ -115,7 +115,7 @@ a {
 }
 
 .menu-navigacion {
-    width: 780px;
+    width: 40%;
     display: flex;
     justify-content: flex-end;
 }
@@ -189,6 +189,7 @@ a {
     font-size: 16px;
     font-family: 'raleway-regular', 'arial', sans-serif;
     text-transform: capitalize;
+        top: 40px;
     /*     border: 1px solid red; */
 }
 
@@ -472,7 +473,7 @@ a {
     line-height: 28px;
     text-align: center;
     color: #8c8c8c;
-    width: 770px;
+    width: 40%;
     margin: 0 auto;
     word-break: break-all;
     -webkit-hyphens: auto;
@@ -512,7 +513,7 @@ a {
 }
 
 .ad-wrapper {
-    width: 540px;
+/*    width: 540px;*/
     margin: 0 auto;
 }
 
@@ -767,6 +768,7 @@ a {
     background-color: rgba(0, 0, 0, 0);
     margin: 0 auto;
     position: relative;
+    margin-bottom: 44px;
 }
 
 .video-play-btn-icon {
@@ -1240,7 +1242,20 @@ time:hover {
 .brand-link:hover {
     color: #c7b299;
 }
-@media screen and (max-width: 1200px)
-{
-    width: 100%;
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+body {
+width: 100%;
+background: red;
 }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {}
+```
