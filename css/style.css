@@ -1260,7 +1260,6 @@ time:hover {
         flex-direction:column;
     }
     .hemepage-header-wrp {
-        /* flex-direction:column; */
         flex-wrap: wrap;
     }
     .menu-header-list {
@@ -1270,14 +1269,19 @@ time:hover {
         display: none;
     }
     .services {
+/*
         margin: 0;
         padding: 10px;
+*/
         box-sizing: border-box;
         flex-wrap: wrap;
         width: 100%;
+            margin: 0 0 30px 0;
+        flex-wrap: wrap;
     }
     .features {
         margin: 0;
+        10px 10px 10px 10px;
     }
     .slider {
         min-height: auto;
@@ -1340,15 +1344,15 @@ time:hover {
     .statistics {
         flex-wrap:wrap;
         justify-content: center;
-        padding: 20px;
+        padding: 10px;
         box-sizing: border-box;
         height: auto;
         margin: 0;
     }
     .sticers {
         padding: 0;
-        margin: 0 0 10px 0;
-        width: 51%;
+        margin-top: 10px;
+     width: 30%;
     }
     .posts {
         padding: 20px;
@@ -1359,7 +1363,7 @@ time:hover {
     }
     .partners {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
         justify-content: center;
         min-height: auto;
         background-size: cover;
@@ -1371,38 +1375,20 @@ time:hover {
     }
     .partners a {
         margin: 20px auto;
-        width: 160px;
-        height: auto;
+    width: 35%;
+    height: auto;
     }
     .foter1 {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 20px;
-        box-sizing: border-box;
+        display: none;
     }
-    .footer-element {
-        margin: 0 0 30px 0;
-        max-width: 95%;
-    }
-    .widget {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: flex-start;
-    }
-    .widget .footer-title {
-        width: 100%;
-    }
-    .widget img {
-        margin: 20px;
-    }
+
     .links-block {
         min-height: auto;
         display: flex;
         flex-wrap: wrap;
         padding: 20px;
         box-sizing: border-box;
-        justify-content: space-between;
+        justify-content: center;
     }
     .links {
         margin: 10px 0;
